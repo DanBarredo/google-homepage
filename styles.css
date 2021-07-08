@@ -16,7 +16,7 @@ ul {
     padding: 10px;
 }
 li {
-    padding: 10px;
+    padding: 0 10px;
     display: flex;
     align-self: center;
     text-transform: capitalize;
@@ -27,6 +27,9 @@ a:link {
 a:visited {
     color: rgb(39, 39, 39);
     text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 .blank-space {
     width: 80%;
@@ -39,6 +42,9 @@ a:visited {
     border-radius: 5px;
     color: #f4f4f4;
     font-weight: bold;
+}
+#signin-btn:hover {
+    cursor: pointer;
 }
 /* NAVBAR */
 
@@ -95,8 +101,4 @@ footer {
     left: 0;
     background-color: hsl(0, 0%, 97%);
     align-items: center;
-}
-footer ul li {
-    height: auto;
-    text-align: left;
 }
